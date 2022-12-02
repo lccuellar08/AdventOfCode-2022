@@ -7,5 +7,6 @@ import java.nio.file.Paths
 
 fun main() {
     val currentDirectory = Paths.get("").toAbsolutePath().toString()
-    mainDay1(currentDirectory);
+//    mainDay1(currentDirectory);
+    mainDay2(currentDirectory);
 }
