@@ -15,6 +15,7 @@ fun mainDay2(currentPath: String) {
 
     val totalPoints = moves.map { calculatePoints(it.first, it.second) }.sum()
     println("Total points: ${totalPoints}")
+
 }
 
 private fun calculatePoints(move1: Move, move2: Move): Int {

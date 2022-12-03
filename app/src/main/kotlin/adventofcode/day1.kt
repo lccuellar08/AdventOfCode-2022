@@ -15,13 +15,14 @@ fun mainDay1(currentPath: String) {
     totalCalories.sortDescending()
     val topThreeMaxCaloriesSum = totalCalories.take(3).sum()
     println("Top 3 Calories Total: ${topThreeMaxCaloriesSum}")
+
 }
 
 private fun getTotalCaloriesPerElf(calories: List<String>): IntArray {
     val totalCalories = mutableListOf<Int>()
 
     var elfTotalCalories = 0
-    calories.forEach {
+    calories.forEach { it ->
         if(it == "") {
             totalCalories.add(elfTotalCalories)
             elfTotalCalories = 0
