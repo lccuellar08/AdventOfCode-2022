@@ -9,5 +9,6 @@ fun main() {
     val currentDirectory = Paths.get("").toAbsolutePath().toString()
 //    mainDay1(currentDirectory)
 //    mainDay2(currentDirectory)
-    mainDay3(currentDirectory)
+//    mainDay3(currentDirectory)
+    mainDay4(currentDirectory)
 }
