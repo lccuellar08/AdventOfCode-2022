@@ -13,5 +13,6 @@ fun main() {
 //    mainDay4(currentDirectory)
 //    mainDay5(currentDirectory)
 //    mainDay6(currentDirectory)
-    mainDay7(currentDirectory)
+//    mainDay7(currentDirectory)
+    mainDay8(currentDirectory)
 }
